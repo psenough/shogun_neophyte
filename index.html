@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Shogun Neophyte</title>
+		<link rel="stylesheet" type="text/css" href="http://www.kesiev.com/stripthis/stripthis/font/stylesheet.css" />
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/comicbrowser.js"></script>
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/comicgenerator.js"></script>
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/stencils.js"></script>
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/stencils-kesiev.js"></script>
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/stencils-sandbox.js"></script>		
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/stencils-cw.js"></script>
+		<script type="text/javascript" src="http://www.kesiev.com/stripthis/stripthis/libs/stencils-lw.js"></script>
+		
+<!--		<link rel="stylesheet" type="text/css" href="http://localhost/~filipecruz/stripthis-0.1/font/stylesheet.css" />
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/comicbrowser.js"></script>
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/comicgenerator.js"></script>
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/stencils.js"></script>
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/stencils-kesiev.js"></script>
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/stencils-sandbox.js"></script>		
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/stencils-cw.js"></script>
+		<script type="text/javascript" src="http://localhost/~filipecruz/stripthis-0.1/libs/stencils-lw.js"></script>-->
+				
+		<script type="text/javascript" src="scenes.js"></script>
+		<script type="text/javascript" src="css_magic.js"></script>
+	
+		<script type="text/javascript">
+	
+		 function startDemo() {
+		 	audio.play();
+			intro(); 					
+			setTimeout("check_out_this_cd()",2000);
+			setTimeout("i_made_it_just_for_us()",4100);
+			setTimeout("i_made_it_just_for_us_silence()",6000);
+			setTimeout("a_cd()",10400);
+			setTimeout("m_hmm()",11300);
+			setTimeout("m_hmm_silence()",11900);
+			setTimeout("i_filled_it_with_all_our_favorite_tunes()",13400);
+			setTimeout("m_hmm_silence()",15500);
+			setTimeout("on_a_cd()",16500);
+			setTimeout("m_hmm()",17500);
+			setTimeout("how_did_you_manage_that()",18600);
+			setTimeout("magic()",20800);
+			setTimeout("magic2()",22100);
+			setTimeout("magic3()",23200);
+			setTimeout("magic4()",24900);
+			setTimeout("magic5()",26500);
+			setTimeout("magic6()",28000);
+			setTimeout("magic7()",30000);
+			setTimeout("i_remember_right_where_we_were()",32400);
+			setTimeout("i_love_this_song()",35200);
+			setTimeout("i_love_this_song_silence()",37000);
+			setTimeout("magic_bar()",39600);
+			setTimeout("rock_out()",41700);
+			setTimeout("magic_bar()",43300);
+			setTimeout("rock_out()",44200);
+			setTimeout("magic_bar()",45500);
+			setTimeout("rock_out()",46600);
+			setTimeout("magic_bar()",48000);
+			setTimeout("meanwhile()",49500);
+			setTimeout("but_in_rotterdam()",55600);
+			setTimeout("new_challenger()",61500);
+			setTimeout("epic_battle()",66700);
+			setTimeout("crowd_gathers()",71700);
+			setTimeout("cthulu_is_rising()",76600);
+			setTimeout("virgin_suicides()",79000);
+			setTimeout("who_stole_my_goat()",81500);
+			setTimeout("yellow_giraffes()",84000);
+			setTimeout("greetings_earthling()",86500);
+			setTimeout("none_shall_pass()",89000);
+			
+			setTimeout("lucy_in_the_sky_with_diamonds()",91500);
+			
+			setTimeout("born_toulouse()",94000);
+
+			
+			setTimeout("a_ninja()",96500);
+
+			setTimeout("unless()",100000);
+
+			setTimeout("lucy_in_the_sky_with_diamonds()",101400);
+			setTimeout("ninja_play()",103800);
+			
+			setTimeout("we_sure_had_some_good_times()",105700);
+			
+			setTimeout("credits()",111500);
+
+		 }
+		 
+	</script>
+	</head>
+	<body>
+		<div id="comic">
+		</div>
+		<!--<input type="button" value="changeme" onclick="changeme()">-->
+		<audio id="audio" src="shogun_neophyte.ogg">no sound support</audio>
+
+	</body>
+	<script>
+		function onComicgeneratorConfigure() {	
+		comicgenerator._settings.placeholders.server="http://www.kesiev.com/stripthis/stripthis/";
+		comicgenerator._settings.translator.enabled = false;
+//comicgenerator._settings.placeholders.server="http://localhost/~filipecruz/stripthis-0.1/";
+
+		}
+		
+	  var audio = document.getElementById('audio');
+      audio.addEventListener('loadedmetadata', startDemo, false);
+		
+	</script>
+</html>
